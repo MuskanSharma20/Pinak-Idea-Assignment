@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(244, 200, 53);
+    width: 100vw;
+    height: 100vh;
+}
+
+.heading{
+    font-size: 5rem;
+    color: white;
+    position: absolute;
+    top: 5rem;
+    left: 34rem;
+}
+
+.circle{
+    height: 115px;
+    width: 115px;
+    background-color: rgb(169, 139, 17);
+    position: absolute;
+    top: 12rem;
+    left: 44rem;
+border-radius: 70px;
+}
+
+.circle h1 {
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+    color: white;
+    font-size: 4rem;
+}
+
+.footerContainer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10rem;
+  width: 100%;
+  background-color: red;
+  display: flex;
+
+  justify-content: center;
+}
+
+
+
+.footerContainer .yellowBox {
+    width: 0px;
+    height: 0px;
+    border-top: 73px solid  rgb(244, 200, 53);
+    border-right: 236px solid red;
+    border-bottom: 73px solid red;
+    border-left: 236px solid red;
+}
